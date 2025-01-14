@@ -1,0 +1,18 @@
+*{
+  /* border-box로 설정하면 width와 height에 패딩과 보더 크기가 포함되어 계산 */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background: #333; */
+  /* color: #fff;   */
+  background: #fff;
+  color: #333;
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+}
